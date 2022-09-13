@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fredoka:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Fredoka', sans-serif;
+}
+
+:root{
+    --primary-color:#2C363F;
+    --secundary-color:#1D8A99;
+    --letters-color:#FCF0DF;
+    --tertiary-color:#CED3DC;
+}
+
+header{
+    height: 100px;
+    background: var(--primary-color);
+    padding: 0 50px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid var(--secundary-color);
+}
+
+.logo{
+    text-transform: uppercase;
+    color: var(--letters-color);
+    font-weight: 200;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h1{
+    text-align: center;
+    margin: 50px 50px;
+    color: var(--secundary-color);
+}
+
+/*FOOTER*/
+
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    font-family: 'Nunito', sans-serif;
+    *background-color: var(--color-esqueleto);
+    background-image: url("../IMG/background-footer.svg");
+    background-size: cover;
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box__footer .logo img{
+    width: 180px;
+}
+
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: var(--tertiary-color);
+    font-size: 18px;
+
+}
+
+.box__footer h2{
+    margin-bottom: 30px;
+    color: var(--letters-color);
+    font-weight: 700;
+}
+
+.box__footer a{
+    margin-top: 10px;
+    color: var(--tertiary-color);
+    font-weight: 600;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+}
+
+.box__footer a .fab{
+    font-size: 20px;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: var(--tertiary-color);
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: var(--tertiary-color);
+}
+
+.Principal{
+
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    border: var(--secundary-color) solid 5px;
+
+    margin: 30px;
+    padding: 50px;
+}
+
+.Campos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+
+    margin-bottom: 33px;
+}
+
+.Campos button{
+    margin: 0px 33px;
+}
+
+input{
+    border-radius: 33px;
+    border: var(--secundary-color) solid 3px;
+    text-align: center;
+
+    margin: 0px 15px;
+
+    height: 50px;
+    width: 333px;
+
+    font-size: large;
+}
+
+p{
+    font-size: large;
+    color: var(--secundary-color);
+}
+
+.saber-mas{
+    display:inline-block;
+    text-decoration:none;
+    color: var(--secundary-color);
+    padding: 10px 30px;
+    border: 3px solid var(--secundary-color);
+    border-radius: 30px;
+    margin-top: 15px;
+    transition: all 0.4s;
+}
+.saber-mas:hover{
+    background:rgba(100, 180, 191, 0.6);
+    color: var(--primary-color);
+}
+
+.columnas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+
+    margin-bottom: 33px;
+}
